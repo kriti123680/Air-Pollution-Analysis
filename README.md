@@ -79,7 +79,7 @@ The project also includes data visualization and classification modeling to pred
 ## 🚀 How to Run the Project
 ```bash
 # Clone the repository
-git clone https://github.com/kriti123680/air-pollution-project.git
+git clone https://github.com/kriti123680/Air-Pollution-Analysis.git
 
 # Navigate to project folder
 cd air-pollution-project

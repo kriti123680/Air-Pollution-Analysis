@@ -13,7 +13,6 @@ The project also includes data visualization and classification modeling to pred
 - Data Visualization
 - Model Comparison
 - Interactive Streamlit Dashboard
-- Real-time Air Quality Prediction (if Live API is added)
 
 ---
 
@@ -21,8 +20,6 @@ The project also includes data visualization and classification modeling to pred
 - **Total Records:** 5000  
 - **Total Features:** 10  
 - **Target Variable:** Air Quality  
-
----
 
 ### Selected features:
 - Temperature  
@@ -58,21 +55,41 @@ Air Quality:
 ---
 
 ## Project Workflow
-Dataset
-   ↓
-Data Cleaning
-   ↓
-Exploratory Data Analysis (EDA)
-   ↓
-Feature Selection
-   ↓
-Model Training
-   ↓
-Model Evaluation
-   ↓
-Model Serialization (.pkl)
-   ↓
-Streamlit Dashboard
+
+```text
+┌─────────┐
+│ Dataset │
+└────┬────┘
+     ▼
+┌───────────────┐
+│ Data Cleaning │
+└────┬──────────┘
+     ▼
+┌───────────────┐
+│      EDA      │
+└────┬──────────┘
+     ▼
+┌───────────────────┐
+│ Feature Selection │
+└────┬──────────────┘
+     ▼
+┌────────────────┐
+│ Model Training │
+└────┬───────────┘
+     ▼
+┌──────────────────┐
+│ Model Evaluation │
+└────┬─────────────┘
+     ▼
+┌──────────────────────┐
+│ Model Serialization  │
+│        (.pkl)        │
+└────┬─────────────────┘
+     ▼
+┌─────────────────────┐
+│ Streamlit Dashboard │
+└─────────────────────┘
+```
 
 ---
 
@@ -122,5 +139,5 @@ Air-Pollution-Analysis
 
 ---
 ## Team Members
-Kriti Mathya
-Sanjaya Moktan
+- Kriti Mathya
+- Sanjaya Moktan
